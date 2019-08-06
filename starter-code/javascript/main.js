@@ -41,7 +41,7 @@ btnLeft.addEventListener("click", function() {
 // Reset/Split Button
 btnRight.addEventListener("click", function() {
   btnLeft.innerHTML = "START";
-  btnLeft.setAttribute("class", "btn stop");
+  btnLeft.setAttribute("class", "btn start");
   btnRight.innerHTML = "RESET";
-  btnRight.setAttribute("class", "btn split");
+  btnRight.setAttribute("class", "btn reset");
 });
